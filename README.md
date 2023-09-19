@@ -79,7 +79,7 @@ To install the required packages, run the following command in the project direc
 
 To start the server, run the following command in the project directory:
 ```
-    python run.py
+    python app.py
 
 ```
 
