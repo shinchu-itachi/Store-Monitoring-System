@@ -23,6 +23,10 @@
             font-size: 24px;
         }
 
+        ul{
+            list-style: none;
+        }
+
         .box {
             background-color: transparent;
             padding: 20px;
@@ -37,24 +41,24 @@
             <!-- First Column (6 columns wide) -->
             <div class="col-md-4">
                 <div class="box">
-                    <p>To hit the trigger_report, follow the below process:</p>
-                    <ol>
-                        <li>Step 1: Open Postman or any API configuration application</li>
+                    <p>To hit the trigger_report API, follow the below process:</p>
+                    <ul>
+                        <li>Step 1: Open Postman or any API testing applications</li>
                         <li>Step 2: Make a POST request</li>
                         <li>Step 3: Hit the URL - localhost:5000/api/trigger_report</li>
                         <li>Step 4: Copy the random string</li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
             <!-- Second Column (6 columns wide) -->
             <div class="col-md-4">
                 <div class="box">
-                    <p>To hit the get_report, follow the below process:</p>
-                    <ol>
+                    <p>To hit the get_report API, follow the below process:</p>
+                    <ul>
                         <li>Step 1: Open any browser.</li>
                         <li>Step 2: Hit the URL - localhost:5000/api/get_report?report_id=random_string</li>
                         <li>Step 3: CSV file will generate</li>
-                    </ol>
+                    </ul>
                 </div>
             </div>
         </div>
